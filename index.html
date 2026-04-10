@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Happy Birthday Havannita</title>
+
+<style>
+.btn {
+  background: #c2185b;
+  color: white;
+  border: none;
+  padding: 15px 25px;
+  font-size: 18px;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background: #ad1457;
+  transform: scale(1.1);
+}
+
+p {
+  color: white;
+  font-size: 1.2em;
+  margin-top: 10px;
+}
+</style>
+
+</head>
+
+<body>
+  <div class="card">
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Happy Birthday Havannita</title>
+
+<style>
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #f8b6b6, #f48fb1);
+  font-family: 'Segoe UI', cursive;
+}
+
+/* Card */
+.card {
+  background: rgba(255,255,255,0.15);
+  backdrop-filter: blur(10px);
+  padding: 50px;
+  border-radius: 25px;
+  text-align: center;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+  animation: float 3s ease-in-out infinite;
+}
+
+/* Animación flotante */
+@keyframes float {
+  0% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
+  100% { transform: translateY(0); }
+}
+
+/* Cake */
+.cake {
+  width: 120px;
+  height: 70px;
+  background: #5c2c2c;
+  border-radius: 15px;
+  margin: 0 auto 20px;
+  position: relative;
+}
+
+.cake::before {
+  content: "";
+  position: absolute;
+  top: -15px;
+  width: 100%;
+  height: 25px;
+  background: #fff;
+  border-radius: 15px;
+}
+
+/* Candle */
+.candle {
+  width: 12px;
+  height: 35px;
+  background: white;
+  position: absolute;
+  top: -45px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+/* Flame */
+.flame {
+  width: 12px;
+  height: 18px;
+  background: radial-gradient(circle, yellow, orange);
+  border-radius: 50%;
+  position: absolute;
+  top: -18px;
+  animation: flicker 0.2s infinite alternate;
+}
+
+@keyframes flicker {
+  from { transform: scale(1); opacity: 1; }
+  to { transform: scale(1.3); opacity: 0.6; }
+}
+
+/* Texto */
+h1 {
+  color: #c2185b;
+  font-size: 3em;
+  text-shadow: 0 0 10px rgba(255,255,255,0.8);
+}
+
+/* Botón */
+.btn {
+  margin-top: 20px;
+  background: #c2185b;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  font-size: 16px;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background: #ad1457;
+  transform: scale(1.1);
+}
+
+/* Mensaje */
+#mensaje {
+  display: none;
+  color: white;
+  margin-top: 15px;
+  font-size: 1.2em;
+  animation: fadeIn 1s ease;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+/* Confetti */
+body::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-image: radial-gradient(circle, white 2px, transparent 2px);
+  background-size: 30px 30px;
+  opacity: 0.3;
+  animation: move 5s linear infinite;
+}
+
+@keyframes move {
+  from { transform: translateY(-100px); }
+  to { transform: translateY(100px); }
+}
+</style>
+
+</head>
+
+<body>
+
+<div class="card">
+
+  <div class="cake">
+    <div class="candle">
+      <div class="flame"></div>
+    </div>
+  </div>
+
+  <h1>Happy Birthday Havannita 💖</h1>
+
+  <button onclick="mostrarMensaje()" class="btn">
+    💌 Ver mensaje
+  </button>
+
+  <p id="mensaje">
+    QUE SERIA MI VIDA SIN TI, este es un nuevo año para ser mejor, aprender de los errores y ser feliz, eres una persona MUY buena y cuando las cosas te salgan bien
+      no creas que es suerte, es DIOS, quién refleja su amor a ti mediante logros porque eres merecedora por lo bien que tratas al mundo, deseo infinitamente que siempre
+      seas feliz y tengas una gran familia que te ame tanto como yo a ti ❤️
+  </p>
+
+</div>
+
+<script>
+function mostrarMensaje() {
+  document.getElementById("mensaje").style.display = "block";
+}
+</script>
+
+</body>          
+
+<audio id="musica" loop>
+  <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mpeg">
+</audio>
+
+
+</html>
+
+  <div id="mensaje" style="display:none;">
+    <div class="cake">
+      <div class="candle">
+        <div class="flame"></div>
+      </div>
+    </div>
+
+    <h1>Feliz Cumpleaños Havannita 💖</h1>
+    <p>Espero que tengas un día hermoso ✨ te quiero mucho 🫶❤️</p>
+  </div>
+
+</div>
+
+<script>
+function mostrarMensaje() {
+  document.getElementById("mensaje").style.display = "block";
+  document.getElementById("musica").play();
+}
+</script>
+
+
+
+</body>
+</html>
